@@ -1,8 +1,8 @@
 # How to run simulation
 
 
-kobuki_gazebo, kobuki_desctipotion 패키지 설치
-
+1. kobuki_gazebo, kobuki_desctipotion 패키지 설치
+2.
 `$CATKIN_PATH/kobuki/kobuki_description/urdf` 폴더에 저장
 
 * kobuki.urdf.xacro
@@ -19,7 +19,7 @@ kobuki_gazebo, kobuki_desctipotion 패키지 설치
 * library.world 
 
 
-catkin_make 진행
+3. catkin_make 진행
 
 ---
 
