@@ -2,7 +2,7 @@
 
 <robot name="kobuki_sim" xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:macro name="kobuki_sim">
-  <gazebo reference="rplidar_link">
+  <gazebo reference="laser">
 	<sensor type="gpu_ray" name="head_rplidar_sensor">
 		<pose>0 0 0 0 0 0</pose>
 		<visualize>true</visualize>
@@ -29,7 +29,7 @@
 		</ray>
 		<plugin name="gazebo_ros_head_rplidar_controller" filename="libgazebo_ros_gpu_laser.so">
 			<topicName>/scan</topicName>
-			<frameName>rplidar_link</frameName>
+			<frameName>laser</frameName>
 		</plugin>
 	</sensor>
 </gazebo>
