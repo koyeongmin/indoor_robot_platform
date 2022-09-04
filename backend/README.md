@@ -6,6 +6,6 @@
 
 ----
 
-로봇 bringup 또는 gazebo 
+로봇 bringup 또는 gazebo 실행 이후
 
 roslaunch turtlebot_navigation rplidar_gmapping.launch 실행
